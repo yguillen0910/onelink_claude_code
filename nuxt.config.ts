@@ -6,4 +6,11 @@ export default ({
     colorMode: {
         classSuffix: '',
     },
+    nitro: {
+        vercel: {
+            functions: {
+                runtime: 'nodejs20.x',
+            },
+        },
+    },
 })
