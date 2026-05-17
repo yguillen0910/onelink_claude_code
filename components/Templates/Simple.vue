@@ -1,16 +1,16 @@
 <template>
-  <main class="p-4 bg-white h-full w-full space-y-8 pt-12 max-w-lg mx-auto">
+  <main class="p-4 bg-purple-600 h-full w-full space-y-8 pt-12 max-w-lg mx-auto">
     <div class="text-center">
       <div
         v-if="acc.i"
-        class="h-20 w-20 rounded-full overflow-hidden ring ring-slate-200 mx-auto"
+        class="h-20 w-20 rounded-full overflow-hidden ring ring-purple-300 mx-auto"
       >
         <img :src="acc.i" alt="name" class="h-full w-full object-cover" />
       </div>
-      <h1 v-if="acc.n" class="text-2xl font-bold mt-4 text-slate-800">
+      <h1 v-if="acc.n" class="text-2xl font-bold mt-4 text-white">
         {{ acc.n }}
       </h1>
-      <p v-if="acc.d" class="text-sm mt-2 text-slate-600">
+      <p v-if="acc.d" class="text-sm mt-2 text-purple-100">
         {{ acc.d }}
       </p>
     </div>
